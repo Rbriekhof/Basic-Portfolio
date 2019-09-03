@@ -1,3 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    line-height: 34px;
+    font-display: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+h2 {
+    width: 250px;
+    height: 90px;
+    background: #4aaaa5;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.links {
+float: right;
+margin-top: 25px;
+color: #999999;
+text-decoration: none;
+margin-left: 15px;
+display: inline-block;
+border-left: 1px solid #efefef;
+padding-left: 15px;
+line-height: 18px;
+}
+
+
 footer {
     border-top: 8px solid #4aaaa5;
 
