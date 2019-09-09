@@ -1,48 +1,54 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<!-- This is the Contacts page of the website -->
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Contact Me - Brooks Riekhof</title>
-  <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+    <link rel="stylesheet" href="Assets/CSS/reset.css">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
 </head>
 
 <body>
-<!-- Nav Bar -->
-<div class="navbar">
-    <div class="menu.options">
-    <h2 class="name">Brooks Riekhof</h2>
-    <ul>
-        <li><a href="./Index.html">About Me</a></li>
-        <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./contacts.html">Contact</a></li>
-    </ul>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Brooks Riekhof</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact Me</h1>
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name Here" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message Here"
+                            required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+            </form>
+
+        </section>
     </div>
-</div>
-<section class="contactme">
-    <!-- Body Contact Page -->
-    <h1>Contact Me</h1>
-<form class="contact.form">
-    <ul>
-        <li>
-            <label for="Name">Name</label>
-            <input type="text" name="name" placeholder="Your Name Here" required="required">
-        </li>
-        <li>
-            <label for="Email">Email</label>
-            <input type="text" name="email" placeholder="example@gmail.com" required="required">
-        </li>
-        <li>
-            <label for="message">Message</label>
-            <input type="text" name="message" placeholder="Your message here" required="required">
-        </li>
 
-    </ul>
-    <input type="submit" name="submit">
-
-</form>
-
-</section>
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
 </body>
 
 </html>
